@@ -1,9 +1,9 @@
-
+/*
 * {
     margin: 0;
     padding: 0;
 }
-
+*/
 
 html{
     background-color: powderblue;
@@ -16,6 +16,7 @@ html{
 }
 
 .head3 {
+    float: left;
     color: white;
     padding-left: 25px;
     padding-top: 15px;
@@ -65,12 +66,35 @@ html{
     color: rgb(87, 117, 180);
 }
 
-.head8 {
-    float: left;
-    font-size: 20px;
-    padding-left: 50%;
-}
-
+/* flex container with 5 items */
 .navbar {
+    display: flex;
+    background-color: orange;
+    flex-direction: row;
+}
+
+.navbar > div {
+    color: white;
+    background-color: rebeccapurple;
+    width: 100px;
+    margin: auto;
 
 }
+
+.location{
+    display: flex;
+    background-color: rgba(34, 43, 58, 100%);
+    flex-direction: row;
+    margin: 30px;
+    width: auto;
+    height: 50px;
+}
+
+.location > div {
+    background-color: rebeccapurple;
+    width: 200px;
+    margin: 20px;
+    color: white;
+
+}
+
