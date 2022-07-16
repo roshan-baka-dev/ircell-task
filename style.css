@@ -136,7 +136,7 @@ html{
 .main > div {
     background-color: #F9F6F0;
     width: 380px;
-    height: 330px;
+    height: 420px;
     margin-left: 18px;
     margin-top: 18px;
     margin-bottom: 18px;
@@ -156,20 +156,29 @@ html{
 .main > div > div {
     padding-left: 25px;
     color: rgb(30, 71, 137);
-    font-size: 30px;
+    font-size: 32px;
 
 }
 
-#country {
+#q {
     color: rgb(30, 71, 137);
     font-size: 17px;
+    font-weight: bold;
 }
 
-#nation {
+#a {
     color:  black;
     font-size: 17px;
 }
 
+#qs {
+    color: rgb(224, 34, 9);
+    font-size: 17px;
+    font-weight: bold;
+}
+#qa {
+
+}
 
 /*
 .main1 {
