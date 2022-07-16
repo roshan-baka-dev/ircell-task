@@ -120,6 +120,21 @@ html{
     text-align: center;
 
 }
+.view {
+    background-color: rgb(41, 68, 113);
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    text-align: center;
+    font-size: 17px;
+
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.view:hover {opacity: 0.6}
+
 /*------------------------------/*-------------------------------*/
 .main{
     display: flex;
@@ -162,23 +177,37 @@ html{
 
 #q {
     color: rgb(30, 71, 137);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 #a {
     color:  black;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #qs {
     color: rgb(224, 34, 9);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
 }
 #qa {
 
 }
+.apply {
+    background-color: rgb(41, 68, 113);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 145px;
+    text-align: center;
+    font-size: 17px;
+
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.apply:hover {opacity: 0.6}
 
 /*
 .main1 {
