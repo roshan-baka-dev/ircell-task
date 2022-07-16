@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
 }
-*/
+
+
 html{
     background-color: powderblue;
 }
@@ -21,7 +22,7 @@ html{
     /* not making any difference
 
     padding-bottom: 50px;
-    
+
     */
 
     /*no use*/
@@ -36,4 +37,40 @@ html{
     padding-top: 17px;
     
     float: left;
+}
+
+.head5 {
+    float: left;
+    padding-left: 10px;
+    padding-top: 17px;
+    font-size: 40px;
+    transform: scaleY(2.7);
+    color: white;
+}  
+
+.brand {
+    float: left;
+    padding-left: 10px;
+    color: green;
+    font-size: 35px;
+} 
+
+.head6 {
+    padding-top: 10px;
+    color: white;
+    font-family: 'Gilroy';
+}
+
+.head7 {
+    color: rgb(87, 117, 180);
+}
+
+.head8 {
+    float: left;
+    font-size: 20px;
+    padding-left: 50%;
+}
+
+.navbar {
+
 }
