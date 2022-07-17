@@ -102,15 +102,15 @@ html{
 .location{
     display: flex;
     /* to differentiate */
+    /* border: 1px solid red; */
+    /* background-color: yellow; */
     border: .5px solid white;
-
     flex-direction: row;
 
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 20px;
     
-    /* width: 100px; */
 
 }
 /* flex box */
@@ -119,29 +119,37 @@ html{
     /* to differentiate */
     /* border: 2px solid red; */
     width: 250px;
-    background-color: rgba(34, 43, 58, 100%);
-    /* margin: 15px; */
-    height: 20px;
+    flex-wrap: wrap;
+    
+    /* this makes them split away */
+    /* margin: 15px;
+    height: 20px; */
     color: white;
 
     text-align: center;
+
+    
     padding: 15px;
     border-right:solid  #F9F6F0 .5px;
     border-left:solid  #F9F6F0 .5px;
+
+    /* removed this to add button*/
+    background-color: rgba(34, 43, 58, 100%);
     
 
 }
+/* removed this to add button*/
 .location > div:hover{
     background-color: rgb(41, 68, 113);
 
 }
 
+
+/* -------------------------/* -------------------------/* -------------------------/* ---------------------------------------- */
 .view {
     background-color: rgb(41, 68, 113);
-    border: none;
     border-radius: 5px;
     color: white;
-    padding: 10px 145px;
     text-align: center;
     font-size: 17px;
     /* margin-top: 10px; */
@@ -150,14 +158,14 @@ html{
     transition: 0.3s;
 }
 
-.view:hover {opacity: 0.6}
+
+.view:hover {opacity: 0.6} */
 
 /*------------------------------/*-------------------------------*/
 .main{
     display: flex;
-    /*background-color: brown;*/
+    /* background-color: brown; */
     flex-wrap: wrap;
-    flex-direction: row;
 
     margin-top: 10px;
     margin-left: 100px;
@@ -228,6 +236,9 @@ html{
 
     opacity: 1;
     transition: 0.3s;
+
+    /* distinct feature */
+    cursor: pointer;
 }
 
 .apply:hover {opacity: 0.6}
