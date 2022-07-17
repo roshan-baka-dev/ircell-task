@@ -1,7 +1,7 @@
 
 
 function register(params) {
-    location.href="https://www.twitter.com/1roshanekka"    
+    location.href="login.html"    
 }
 
 
