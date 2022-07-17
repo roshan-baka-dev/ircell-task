@@ -6,7 +6,7 @@ function register(params) {
 
 
 function northamerica(params) {
-    location.href="north-america.html"    
+    location.href="/north-america.html"    
 }
 
 //this wouldn't allow to go back
