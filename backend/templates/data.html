@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DataBase</title>
+    </head>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+        }
+
+    </style>
+
+    <body>
+        <h1>Data inputted</h1>
+        <br><br><br>
+        <!-- Name : {{ name }}
+    <br>
+    DOB : {{ dob }}
+    <br> -->
+        <table width="100%">
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Date of Birth
+                </th>
+                <th>
+                    Roll Number
+                </th>
+                <th>
+                    Email ID
+                </th>
+                <th>
+                    Password
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    {{name}}
+                </th>
+                <th>
+                    {{dob}}
+                </th>
+                <th>
+                    {{roll}}
+                </th>
+                <th>
+                    {{email}}
+                </th>
+                <th>
+                    {{pass}}
+                </th>
+            </tr>
+        </table>
+        <!-- <form action="/data" method='get'>
+        <textarea name="text" style='width: 50%; height: 100px;'></textarea>
+        <button type="submit">Register</button>
+    </form> -->
+    </body>
+
+</html>
