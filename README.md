@@ -8,3 +8,5 @@ Resources:
 https://www.w3schools.com/default.asp
 
 https://www.flaticon.com/
+
+No bootstrap used whatsoever
