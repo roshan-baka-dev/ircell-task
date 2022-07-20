@@ -327,6 +327,10 @@ a:visited{ text-decoration: none; color: white ; }
     margin-top: 10px;
 }
 
-.north-america{
-    
+/* after javascript */
+
+.active{
+    background-color: green;
+    border-bottom:solid white 5px;
+    /* display: hidden; */
 }
