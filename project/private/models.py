@@ -18,3 +18,6 @@ class student(models.Model):
     password = models.CharField(max_length=30)
 
 #migration will give a SQL like database
+    #show name instead of object
+    def __str__(self):
+        return self.name + ' - ' + self.roll

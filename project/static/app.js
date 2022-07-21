@@ -2,7 +2,7 @@
 
 function register(params) {
     // location.href="login.html"  
-    location.href="register"  
+    location.href="success"  
 }
 
 
