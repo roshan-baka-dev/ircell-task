@@ -6,6 +6,13 @@ from django.urls import path, include
 
 from private import views
 
+#admin customization
+admin.site.site_header = 'Welcome Boss'
+admin.site.site_title = 'DataBase International Relation Cell'
+admin.site.index_title = 'Welcome'
+
+
+
 urlpatterns = [
     path('', views.index, name='index'),
     # path('data', views.data, name='data'),

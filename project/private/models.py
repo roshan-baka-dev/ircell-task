@@ -20,4 +20,6 @@ class student(models.Model):
 #migration will give a SQL like database
     #show name instead of object
     def __str__(self):
-        return self.name + ' - ' + self.roll
+        list_display = ("name", "roll")
+        # return self.name + ' - ' + self.roll
+        return list_display
