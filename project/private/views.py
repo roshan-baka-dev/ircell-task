@@ -31,8 +31,10 @@ def register(request):
         ins = student(name=name, dob=dob, roll=roll, email=email, password=password)
         ins.save()
         print('the data of student has been saved on the database. cool!')
-
-    return render(request, 'register.html')
+        #now this returns the success page
+        return render(request, 'success.html')
+    else:
+        return render(request, 'register.html')
     
     # return HttpResponse('register page (/)')
 
@@ -47,6 +49,8 @@ def about(request):
 
 
 ##delete if made a JS to make it dynamic
+def all(request):
+    return render(request, 'index.html')
 def north_america(request):
     return render(request, 'north_america.html')
 def south_america(request):
@@ -58,6 +62,13 @@ def europe(request):
 def australia(request):
     return render(request, 'australia.html')
     # return HttpResponse('about page (/)')
+
+
+def success(request):
+    return render(request, 'success.html')
+    # return HttpResponse('about page (/)')
+def base(request):
+    return render(request, 'base.html')
 
 def about(request):
     return HttpResponse('about page (/)')

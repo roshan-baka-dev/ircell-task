@@ -1,0 +1,79 @@
+<!-- DTL is a library which can import the dictionary form views -->
+<!-- {{name}} is from {{place}} -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Relation Cell, IIT Kharagpur</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/x-icon" href="/static/assets/favicon.ico">
+    <script src="/static/app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="head-canvas">
+            <!--for logo-->
+            <div class="head-insti-logo">
+                <img src="/static/assets/insti logo.jpg" alt="logo" width="50px" height="55px">
+            </div>
+
+            <div class="head-irlogo">
+                <a href="">
+                    <img src="/static/assets/irlogo.png" alt="ircell logo" width="55px" height="55px">
+                </a>
+            </div>
+
+            <div class="head-sep">
+                |
+            </div>
+
+            <div class="brand">
+                <div class="cell-name">
+                    International Relation Cell
+                </div>
+    
+                <div class="insti-name">
+                    IIT Kharagpur
+                </div>
+            </div>
+
+            <!--earlier this navbar div was outside of head2 div thats why it showed below the canvas-->
+            <div class="navbar">
+                <div>
+                    <img src="/static/assets/univeristy.png" alt="university logo" width="19px" height="19px">
+                    Universities
+                </div>
+                <div>
+                    <img src="/static/assets/application.png" alt="university logo" width="19px" height="19px">
+                    My Application
+                </div>
+                <div>
+                    <img src="/static/assets/bookmark.png" alt="university logo" width="19px" height="19px">
+                    Bookmark
+                </div>
+                <div>
+                    <img src="/static/assets/notification.png" alt="university logo" width="19px" height="19px">
+                    Notification
+                </div>
+            </div>
+            
+            <div class="acc">
+                &nbsp;
+            </div>
+        </div>
+    </header>
+
+    {% block body %}
+    {% endblock body %}
+
+    <footer>
+        <div class="foot1">
+            &copy 2022 &nbsp;International Relation Cell, &nbsp;IIT Kharagpur. &nbsp; &nbsp;All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>

@@ -34,7 +34,7 @@
                 </div>
         </header>
 
-        <form action="/register" method = "post" class="template">
+        <form action="/register" method = "POST" class="template">
             {% csrf_token %}
             <div class="register">
                 Register
@@ -64,8 +64,8 @@
                 <br>
                 <input type="password" placeholder="Set your password" name="password" id="password" required>
             </div>
-            <div class="button">
-                <button onclick="register()" class="apply">Register</button>
+            <div class="button" >
+                <button class="apply" onclick="success()">Register</button>
                 <!-- onclick="register()"  -->
             </div>
             

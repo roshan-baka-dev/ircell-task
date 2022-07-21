@@ -2,9 +2,17 @@
 
 function register(params) {
     // location.href="login.html"  
-    location.href="success"  
+    //you have been successfully registered
+    //lets redirect to the page where it shows congrats
+    location.href="register"  
 }
 
+function success(params) {
+    // location.href="login.html"  
+    //you have been successfully registered
+    //lets redirect to the page where it shows congrats
+    location.href="success"  
+}
 
 function redirect(params) {
     // location.href="index.html"    
