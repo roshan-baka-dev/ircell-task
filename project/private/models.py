@@ -21,5 +21,5 @@ class student(models.Model):
     #show name instead of object
     def __str__(self):
         list_display = ("name", "roll")
-        # return self.name + ' - ' + self.roll
-        return list_display
+        return self.name + ' - ' + self.roll
+        # return list_display
